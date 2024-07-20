@@ -1,28 +1,28 @@
 # Age-Gender-and-Emotion-Detection-through-Images
 
-Overview
+##Overview
 This project aims to detect age, gender, and emotions from facial images using the DeepFace library and OpenCV for face detection. The repository includes code for analyzing static images and real-time video feed from a webcam.
 
-Features
+##Features
 Age Detection: Predicts the age group of a person.
 Gender Detection: Classifies the gender of a person.
 Emotion Detection: Identifies the emotional state (e.g., happy, sad, angry, etc.) of a person.
 Real-time Detection: Analyzes real-time video feed from a webcam.
 
-Project Structure
+##Project Structure
 images/: Contains sample images for testing.
 notebooks/: Jupyter notebooks for exploratory data analysis and model training.
 scripts/: Utility scripts for various tasks like image and video analysis.
 results/: Directory for storing results and logs.
 
-Installation
+##Installation
 To get started with the project, clone the repository and install the required dependencies:
 git clone https://github.com/yourusername/age-gender-emotion-detection.git
 cd age-gender-emotion-detection
 pip install -r requirements.txt
 
-Usage
-Analyzing a Static Image
+##Usage
+##Analyzing a Static Image
 Place your image in the images/ directory.
 Run the script to analyze the image:
 import cv2
@@ -98,25 +98,22 @@ break
 cap.release()
 cv2.destroyAllWindows()
 
-Dependencies
+##Dependencies
 Python 3.7+
 OpenCV
 DeepFace
 Matplotlib
-Install the dependencies using:
+##Install the dependencies using:
 pip install opencv-python-headless deepface matplotlib
 
-Datasets
+##Datasets
 The project utilizes the DeepFace library which includes pretrained models for age, gender, and emotion detection. No additional datasets are required to run the provided code.
 
-Results
+##Results
 Performance metrics and visualizations of the model results can be generated and stored in the results/ directory.
 
-Contributions
+##Contributions
 Contributions to improve the project are welcome. Feel free to fork the repository and submit pull requests.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Contact
+##Contact
 For any questions or issues, please open an issue in the repository or contact [saadatmalik268@gmail.com].
